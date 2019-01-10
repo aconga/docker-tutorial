@@ -20,7 +20,7 @@ pipeline {
     }
 }
 
-node('test') {
+node('production') {
     stage('Poll') {
         checkout scm
     }
