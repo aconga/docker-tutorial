@@ -26,7 +26,7 @@ node('production') {
     }
 
     stage('Build') {
-        echo 'Building'
+        sh 'ls -a'
     }
 
     stage('Test') {
